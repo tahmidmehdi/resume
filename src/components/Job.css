@@ -1,0 +1,38 @@
+.Job {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.job-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding-left: 10px;
+}
+
+.org {
+  font-style: italic;
+}
+
+.org-dates {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 0rem;
+  margin-top: 0rem;
+}
+
+h4 {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 0rem;
+}
+
+.tasks {
+  margin-top: 0rem;
+}
+
+.logo {
+  width: 15%;
+}

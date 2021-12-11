@@ -1,0 +1,14 @@
+.Heading {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  width: 30%;
+}
+
+.round {
+  border-radius: 50%;
+  height: 200px;
+  width: 200px;
+}
