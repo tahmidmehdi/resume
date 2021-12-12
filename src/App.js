@@ -1,7 +1,7 @@
 import './App.css';
-import Education from './components/Education';
 import Experience from './components/Experience';
 import Heading from './components/Heading';
+import PublicationList from './components/PublicationList';
 
 function App() {
   const title = 'Senior Machine Learning Researcher/ Developer at Giatec';
@@ -10,7 +10,7 @@ function App() {
       <Heading title={title} />
       <div className="Content">
         <Experience />
-        <Education />
+        <PublicationList />
       </div>
     </div>
   );

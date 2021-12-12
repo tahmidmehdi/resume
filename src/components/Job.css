@@ -11,10 +11,6 @@
   padding-left: 10px;
 }
 
-.org {
-  font-style: italic;
-}
-
 .org-dates {
   display: flex;
   flex-direction: row;
@@ -23,7 +19,7 @@
   margin-top: 0rem;
 }
 
-h4 {
+h3 {
   font-size: 1.2rem;
   font-weight: bold;
   margin-bottom: 0rem;

@@ -1,3 +1,4 @@
+import Education from './Education';
 import './Heading.css';
 import Links from './Links';
 import PresentationList from './PresentationList';
@@ -21,6 +22,7 @@ function Heading(props) {
       <Links />
       <p>I’m a full-stack machine learning developer who can engineer data, develop AI models and deploy them to production on cloud infrastructures. I have 5 years of experience with end-to-end data science projects and have delivered APIs to serve customers with machine learning solutions with a focus on MLOps.</p>
       <Skills skillList={skillList} />
+      <Education />
       <PresentationList />
     </div>
   );

@@ -1,6 +1,6 @@
 const jobs = [
     {
-        id: 5,
+        id: 6,
         title: 'Senior Machine Learning Developer',
         company: 'Giatec Scientific Inc.',
         location: 'Ottawa, ON',
@@ -15,19 +15,19 @@ const jobs = [
         image_path: '/giatec.png',
     },
     {
-        id: 4,
+        id: 5,
         title: 'Machine Learning Researcher',
         company: 'Moses Lab, University of Toronto',
         location: 'Toronto, ON',
         description: [
-            'Derived a novel machine learning algorithm to cluster biological data, deployed it as a Python package (dphmix), and presented it at the world’s largest bioinformatics conference',
-            'Implemented a Bayesian machine learning model in C++ to detect anomalies in DNA sequences',
+            'Derived a novel Bayesian Mixture Model to cluster biological data, deployed it as a Python package (dphmix), and presented it at the world’s largest bioinformatics conference',
+            'Implemented Stochastic Variational Inference in C++ to detect anomalies in DNA sequences',
         ],
         dates: 'Sep 2017 - Jan 2019',
         image_path: '/moses.jpg',
     },
     {
-        id: 3,
+        id: 4,
         title: 'Bioinformatician',
         company: 'Lupien Lab, University Health Network',
         location: 'Toronto, ON',
@@ -37,6 +37,17 @@ const jobs = [
         ],
         dates: 'Sep 2015 - Dec 2016',
         image_path: '/ml_logo.png',
+    },
+    {
+        id: 3,
+        title: 'Machine Learning Research Assistant',
+        company: 'Kimia Lab, University of Waterloo',
+        location: 'Waterloo, ON',
+        description: [
+            'Classified medical images using keypoint detection algorithms'
+        ],
+        dates: 'May - Aug 2015',
+        image_path: '/kimia.png',
     },
     {
         id: 2,

@@ -5,6 +5,7 @@
   align-items: center;
   justify-content: space-between;
   width: 30%;
+  border-right: 10px solid #00205b;
 }
 
 .round {
