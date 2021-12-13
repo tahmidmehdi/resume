@@ -4,6 +4,7 @@
   align-items: center;
   justify-content: space-between;
   width: 50%;
+  margin: 0 auto;
 }
 
 .Links > a > img {

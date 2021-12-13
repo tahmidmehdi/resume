@@ -1,0 +1,15 @@
+.Skills-list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.Skills-list > span {
+  border-radius: 25px;
+  background: #00205b;
+  color: white;
+  padding: 10px;
+  font-size: 1.2rem;
+}
+  

@@ -1,12 +1,14 @@
+import './Skills.css';
+
 function Skills(props) {
   const { skillList } = props;
-  const lst = skillList.map(skill => <li>{skill}</li>)
+  const lst = skillList.map(skill => <span>{skill}</span>)
   return (
     <div className="Skills">
       <h2>Skills</h2>
-      <ul>
+      <div className="Skills-list">
         {lst}
-      </ul>
+      </div>
     </div>
   );
 }

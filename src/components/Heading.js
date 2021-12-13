@@ -1,3 +1,4 @@
+import { imageBaseUrl } from '../settings';
 import Education from './Education';
 import './Heading.css';
 import Links from './Links';
@@ -5,14 +6,25 @@ import PresentationList from './PresentationList';
 import Skills from './Skills';
 
 function Heading(props) {
-  const avatar = '/11092120.jpg';
+  const avatar = imageBaseUrl + '/11092120.jpg';
   const skillList = [
-    'Python, Javascript & SQL', 
-    'tensorflow, numpy, scipy & pandas', 
-    'Azure, AWS & IBM Cloud', 
-    'PostgreSQL', 
-    'APIs, Git & CI/CD (Docker)', 
-    'Bash & Perl'
+    'Python', 
+    'Javascript',
+    'SQL',
+    'R',
+    'Bash',
+    'tensorflow', 
+    'numpy', 
+    'scipy',
+    'pandas', 
+    'Azure', 
+    'AWS',
+    'IBM Cloud', 
+    'PostgreSQL',
+    'APIs', 
+    'Git',
+    'CI/CD',
+    'Docker',
   ]
   return (
     <div className="Heading">
